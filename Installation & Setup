@@ -1,3 +1,6 @@
-Clone the Repo  
+## Clone the Repo  
 git clone https://github.com/your-username/DiscourseQualityIndex.git
 cd DiscourseQualityIndex
+
+## Install Dependencies
+pip install datasets pandas transformers scikit-learn scipy matplotlib wandb torch
