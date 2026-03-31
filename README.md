@@ -5,6 +5,8 @@ The DiscourseQualityIndex is an advanced Natural Language Processing (NLP) pipel
 Instead of training 6 separate models—which is computationally expensive and ignores shared linguistic traits—this project implements a "Shared Brain" Multi-Task Learning architecture. By leveraging a single bert-base-uncased body with a 6-node regression head, the model learns the fundamental rules of human language once and applies those contextual weights to all 6 scoring tasks in parallel.
 
 The 6 Dimensions of Discourse Quality
+
+
 Level of Justification
 
 Respect Towards Demands
